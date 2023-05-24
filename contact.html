@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>The Network</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d4a8240c54.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="Images/Logo.png"></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()" style="color: #ffffff;"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>  
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" style="color:white"></i>
+      </nav>
+    <h1>Contact us</h1>
+    </section>
+<!---------------contatc us-------------->
+<sectionc class="contact-us">
+  <div class="row">
+    <div class="contact-col">
+      <div>
+        <i class="fa fa-phone"></i>
+        <span>
+          <h5>+91 7827535709</h5>
+          <p>Monday to Saturday, 12PM TO 8PM IST</p>
+        </span>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <span>
+          <h5>admin@the-network.social</h5>
+          <p>Email us your query</p>
+        </span>
+      </div>
+      <div>
+        <i class="fa fa-linkedin"></i>
+        <span>
+          <a href="https://www.linkedin.com/company/thenetwork-social/">LinkedIn</a>
+          <p>You can also follow us on Linkedin to be up-to-date with all the developments</p>
+        </span>
+      </div>
+    </div>
+    <div class="contact-col">
+      <h2>Ask us anything</h2>
+      <form action="FormHandle.php" method="post">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <input type="text" name="subject" placeholder="Enter your subject">
+        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+        <button type="Submit" class="hero-btn btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+</sectionc>
+    <script src="script.js"></script>
+
+    <!-----------FOOTER--------->
+    <section class="footer">
+      <h4>About us</h4>
+      <p>The Network is a venture co- founded by students of BITS Pilani</p>
+      <p class="about">A vibrant community nurturing dreams, celebrating accomplishments, and fueling continuous growth through inspiration and support.</p>
+        <div class="icons">
+          <a href=""><i class="fa fa-facebook"></i></a>
+          <a href= "https://instagram.com/thenetwork.social?igshid=MzNlNGNkZWQ4Mg=="><i class="fa fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/thenetwork-social/"><i class="fa fa-linkedin"></i></a>
+
+        </div>
+    </section>
+  </body>
+</html>
